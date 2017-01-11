@@ -1,5 +1,19 @@
+*, ::before, ::after {
+  box-sizing: border-box;
+}
+
+header {
+    font-size: 40px;
+    background: RGB(50, 50, 50);
+    border: 9px solid RGB(50, 50, 50);
+    color: white;
+    font-weight: 800;
+    text-align: center;
+    box-sizing: border-box;
+}
+
 ul {
-  list-style-type: none
+  list-style-type: none;
 }
 
 #sub-header span {
