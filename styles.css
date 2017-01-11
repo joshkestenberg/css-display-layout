@@ -1,5 +1,10 @@
+
+
 *, ::before, ::after {
   box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 header {
@@ -7,13 +12,32 @@ header {
     background: RGB(50, 50, 50);
     border: 9px solid RGB(50, 50, 50);
     color: white;
-    font-weight: 800;
+    font-weight: bolder;
     text-align: center;
     box-sizing: border-box;
 }
 
+.top-links ul {
+  text-align: center;
+  display: block;
+}
+
+.top-links li {
+  display: inline-block;
+  font-size: 20px;
+  background-color: lightgrey;
+  border: 9px solid lightgrey;
+  color: white;
+  font-weight: bolder;
+  text-align: center;
+  box-sizing: border-box;
+  align-content: center;
+}
+
+
 ul {
   list-style-type: none;
+  padding: 0;
 }
 
 #sub-header span {
@@ -24,4 +48,74 @@ ul {
 .options span {
   color: blue;
   text-decoration: underline;
+}
+
+#sub-header {
+  background: rgb(66, 244, 212);
+  height: 50px;
+  font-size: 30px;
+  margin: 20px;
+}
+
+#sub-header p {
+  line-height: 2;
+}
+
+#photos ul{
+  width: 910px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#photos li{
+  width: 300px;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+.options span {
+  color: blue;
+  text-decoration: underline;
+}
+
+.options {
+  background-color: rgb(255, 206, 12);
+  margin-bottom: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.options p {
+  width: 87px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#footer {
+  line-height: 2.5;
+  background-color: black;
+  color: white;
+  margin-top: 7px;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#footer p {
+  width: 120px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#sub-header {
+  width: 910px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header {
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
 }
